@@ -1,8 +1,0 @@
-{
-    "temperature_min_c": -10,
-    "temperature_max_c": 60,
-    "humidity_min_pct": 0,
-    "humidity_max_pct": 100,
-    "temperature_alert_c": 40,
-    "humidity_alert_pct": 85
-}
