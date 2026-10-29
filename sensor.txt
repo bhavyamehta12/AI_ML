@@ -1,0 +1,6 @@
+Sensor ID: S101
+Temperature: 27.5
+Status: Normal
+Sensor ID: S102
+Temperature: 41.2
+Status: Warning

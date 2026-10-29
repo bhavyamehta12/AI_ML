@@ -1,19 +1,22 @@
-logs = [
-    {"service": "auth", "endpoint": "/login", "status": 200, "duration_ms": 120},
-    {"service": "payments", "endpoint": "/checkout", "status": 500, "duration_ms": 900},
-    {"service": "auth", "endpoint": "/login", "status": 401, "duration_ms": 200},
-    {"service": "products", "endpoint": "/products", "status": 200, "duration_ms": 80},
-    {"service": "payments", "endpoint": "/refund", "status": 503, "duration_ms": 1200},
-    {"service": "auth", "endpoint": "/profile", "status": 200, "duration_ms": 600},
-]
-res = analyze_logs(logs)
-def analyze_logs(
-    logs,
-    allowed_services=None,
-    *,
-    slow_threshold_ms=500,
-    limit=None
-):
-    if slow_threshold_ms>0 and limit>0 and logs==[]:
-        if not isinstance(logs, list):
-            raise TypeError("logs must be a list")
+# a=[1,2,3,4]
+# y = reduce(lambda x:x*8,a)
+
+# print(list(y))
+import json
+
+raw_data = '''
+{
+    "readings": [
+        {"id": 1, "value": 82, "tags": ["temp", "sensor"]},
+        {"id": 2, "value": 95, "tags": ["sensor", "alert"]},
+        {"id": 3, "value": 82, "tags": ["temp", "sensor"]},
+        {"id": 4, "value": 70, "tags": ["humidity"]},
+        {"id": 5, "value": 95, "tags": ["alert", "sensor"]}
+    ]
+}
+'''
+
+data = json.loads(raw_data)
+# print(data)
+readings = data["readings"]
+print(readings)

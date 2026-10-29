@@ -1,0 +1,10 @@
+Training started
+Accuracy: 0.94
+Training completed
+Training started
+Accuracy: 0.94
+Training completed
+Training started
+Accuracy: 0.94
+Training completed
+reereewwwww
