@@ -150,12 +150,10 @@ MLModel.change_default_framework("TensorFlow")
 
 model_d = MLModel("DeepLearning", 0.98)
 
-print("\n--- MODEL INFORMATION ---")
 
 for model in MLModel.registry.values():
     print(model.display_info())
 
-print("\n--- BEST MODEL ---")
 
 best = MLModel.get_best_model()
 
