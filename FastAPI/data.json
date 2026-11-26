@@ -1,0 +1,170 @@
+
+{
+  "patients": [
+    {
+      "id": 1,
+      "name": "Aarav Sharma",
+      "city": "Ahmedabad",
+      "age": 28,
+      "gender": "Male",
+      "height": 175,
+      "weight": 72.5,
+      "bmi": 23.67,
+      "allergies": ["Peanuts", "Dust"]
+    },
+    {
+      "id": 2,
+      "name": "Priya Patel",
+      "city": "Mumbai",
+      "age": 35,
+      "gender": "Female",
+      "height": 162,
+      "weight": 68.0,
+      "bmi": 25.91,
+      "allergies": ["Penicillin"]
+    },
+    {
+      "id": 3,
+      "name": "Rahul Verma",
+      "city": "Delhi",
+      "age": 45,
+      "gender": "Male",
+      "height": 180,
+      "weight": 92.0,
+      "bmi": 28.40,
+      "allergies": []
+    },
+    {
+      "id": 4,
+      "name": "Sneha Desai",
+      "city": "Ahmedabad",
+      "age": 22,
+      "gender": "Female",
+      "height": 158,
+      "weight": 52.0,
+      "bmi": 20.83,
+      "allergies": ["Lactose"]
+    },
+    {
+      "id": 5,
+      "name": "Arjun Mehta",
+      "city": "Pune",
+      "age": 60,
+      "gender": "Male",
+      "height": 170,
+      "weight": 85.0,
+      "bmi": 29.41,
+      "allergies": ["Sulfa drugs"]
+    },
+    {
+      "id": 6,
+      "name": "Kavya Shah",
+      "city": "Surat",
+      "age": 31,
+      "gender": "Female",
+      "height": 165,
+      "weight": 58.0,
+      "bmi": 21.30,
+      "allergies": ["Pollen", "Dust"]
+    },
+    {
+      "id": 7,
+      "name": "Rohan Gupta",
+      "city": "Jaipur",
+      "age": 17,
+      "gender": "Male",
+      "height": 168,
+      "weight": 55.0,
+      "bmi": 19.49,
+      "allergies": ["Pollen"]
+    },
+    {
+      "id": 8,
+      "name": "Ananya Iyer",
+      "city": "Bengaluru",
+      "age": 52,
+      "gender": "Female",
+      "height": 160,
+      "weight": 74.0,
+      "bmi": 28.91,
+      "allergies": []
+    },
+    {
+      "id": 9,
+      "name": "Vikram Singh",
+      "city": "Chandigarh",
+      "age": 39,
+      "gender": "Male",
+      "height": 178,
+      "weight": 80.0,
+      "bmi": 25.25,
+      "allergies": ["Shellfish"]
+    },
+    {
+      "id": 10,
+      "name": "Diya Joshi",
+      "city": "Ahmedabad",
+      "age": 26,
+      "gender": "Female",
+      "height": 155,
+      "weight": 48.0,
+      "bmi": 19.98,
+      "allergies": ["Soy"]
+    },
+    {
+      "id": 11,
+      "name": "Karan Malhotra",
+      "city": "Hyderabad",
+      "age": 67,
+      "gender": "Male",
+      "height": 172,
+      "weight": 78.0,
+      "bmi": 26.37,
+      "allergies": ["Penicillin", "Dust"]
+    },
+    {
+      "id": 12,
+      "name": "Meera Nair",
+      "city": "Kochi",
+      "age": 41,
+      "gender": "Female",
+      "height": 163,
+      "weight": 62.0,
+      "bmi": 23.34,
+      "allergies": []
+    },
+    {
+      "id": 13,
+      "name": "Dev Patel",
+      "city": "Rajkot",
+      "age": 29,
+      "gender": "Male",
+      "height": 185,
+      "weight": 95.0,
+      "bmi": 27.76,
+      "allergies": ["Peanuts"]
+    },
+    {
+      "id": 14,
+      "name": "Ishita Roy",
+      "city": "Kolkata",
+      "age": 33,
+      "gender": "Female",
+      "height": 170,
+      "weight": 64.0,
+      "bmi": 22.15,
+      "allergies": ["Pollen", "Pet Hair"]
+    },
+    {
+      "id": 15,
+      "name": "Aditya Rao",
+      "city": "Chennai",
+      "age": 74,
+      "gender": "Male",
+      "height": 168,
+      "weight": 70.0,
+      "bmi": 24.80,
+      "allergies": []
+    }
+  ]
+}
